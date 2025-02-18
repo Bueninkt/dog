@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+   background-color: rgb(62, 62, 62);
+   padding: 12px;
+   justify-items: center;
+   
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.389);
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    font-family: monospace;
+    font-weight: 700;
+    color: aliceblue;
+
+    
+}
+
+input{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+ .galeria{
+    display: columns;
+    columns: 5;
+}
+
+.galeria img{
+    width: 100%;
+    padding-block: 4px;
+}
